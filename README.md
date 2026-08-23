@@ -124,5 +124,8 @@ the official registry is authoritative.
 
 ## Licence
 
-MIT for the contents of this repository. The directory data returned by the endpoint is
-proprietary and offered for use through the endpoint. See [LICENSE](LICENSE).
+[MIT](LICENSE) — covering this repository's contents: the server manifest, documentation and
+examples.
+
+The licence does not extend to the Harness Atlas directory data returned by the hosted endpoint.
+That data remains proprietary and is offered for use through the endpoint itself.
