@@ -95,7 +95,7 @@ curl -s -X POST https://harnessatlas.com/api/mcp \
 
 ## The data, honestly
 
-- **~513 published manufacturers, ~725 plants, 66 countries.** Coverage is deepest in Europe,
+- **513 published manufacturers, 715 plants, 65 countries.** Coverage is deepest in Europe,
   with meaningful presence in North America and Asia.
 - **Profiles are compiled from public sources and manufacturer self-declaration.** Independent
   verification is in progress and is not yet reflected in most listings — treat capability and
