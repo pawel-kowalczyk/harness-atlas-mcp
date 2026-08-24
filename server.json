@@ -3,12 +3,12 @@
   "name": "io.github.pawel-kowalczyk/harness-atlas",
   "title": "Harness Atlas",
   "description": "Search 500+ wire-harness & cable-assembly manufacturers by country, industry, and capability.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "websiteUrl": "https://harnessatlas.com/mcp",
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://qahxbracftdyarpzplzf.supabase.co/functions/v1/mcp"
+      "url": "https://harnessatlas.com/api/mcp"
     }
   ]
 }

@@ -7,10 +7,14 @@ general web knowledge: *who manufactures this*, and *what part can replace this 
 Hosted, public, no API key, nothing to install.
 
 ```
-https://qahxbracftdyarpzplzf.supabase.co/functions/v1/mcp
+https://harnessatlas.com/api/mcp
 ```
 
 Listed in the official MCP registry as `io.github.pawel-kowalczyk/harness-atlas`.
+
+> The endpoint moved to `harnessatlas.com` on 2026-08-24 (manifest v0.2.0). The previous Supabase
+> URL still works and is not being retired, so existing clients keep functioning — but this is the
+> address to use.
 
 ---
 
@@ -63,7 +67,7 @@ mating connector as a replacement part.
 **Claude Code**
 
 ```bash
-claude mcp add --transport http harness-atlas https://qahxbracftdyarpzplzf.supabase.co/functions/v1/mcp
+claude mcp add --transport http harness-atlas https://harnessatlas.com/api/mcp
 ```
 
 **Claude Desktop / any client taking a remote MCP URL** — add to your MCP config:
@@ -73,7 +77,7 @@ claude mcp add --transport http harness-atlas https://qahxbracftdyarpzplzf.supab
   "mcpServers": {
     "harness-atlas": {
       "type": "streamable-http",
-      "url": "https://qahxbracftdyarpzplzf.supabase.co/functions/v1/mcp"
+      "url": "https://harnessatlas.com/api/mcp"
     }
   }
 }
@@ -82,7 +86,7 @@ claude mcp add --transport http harness-atlas https://qahxbracftdyarpzplzf.supab
 **Straight JSON-RPC**, to try it without a client:
 
 ```bash
-curl -s -X POST https://qahxbracftdyarpzplzf.supabase.co/functions/v1/mcp \
+curl -s -X POST https://harnessatlas.com/api/mcp \
   -H 'Content-Type: application/json' \
   -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{
         "name":"find_manufacturer",
